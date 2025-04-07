@@ -10,9 +10,9 @@ function closeMenu() {
 
 // Add event listener to each modal link to close the modal after clicking
 const modalLinks = document.querySelectorAll('.modal__link');
-modalLinks.forEach(link => {
+modalLinks.forEach(link => { 
     link.addEventListener('click', function(event) {
-        closeMenu(); // Close the menu when a link is clicked
+        closeMenu(".modal__link"); // Close the menu when a link is clicked
 
         // Optionally scroll to the section smoothly
         const target = document.querySelector(this.getAttribute('href')); // Get the target section
