@@ -1258,7 +1258,7 @@ footer {
     opacity: 0.5;
 }
 
-@media(max-width: 1280px) {
+@media(max-width: 1200px) {
     h1 {
         font-size: 36px;
     }
@@ -1292,7 +1292,7 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .nav__links {
         display: none;
     }
@@ -1481,7 +1481,7 @@ footer {
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 576px) {
     .section__title {
         line-height: 1.25;
     }
@@ -1609,4 +1609,4 @@ footer {
         font-size: 14px;
         text-align: center;
         line-height: 1.5;
-    
+    }}
